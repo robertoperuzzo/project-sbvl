@@ -11,10 +11,10 @@ layout: page
   <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
 </p>
 <p class="text-center">
-  <video controls style="width:640px;height:360px;" poster="https://www.html5rocks.com/en/tutorials/video/basics/poster.png">
-    <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm"
+  <video controls style="width:640px;height:360px;" poster="{{ "/images/poster.png" | prepend: site.baseurl }}">
+    <source src="{{ "/videos/devstories.webm" | prepend: site.baseurl }}"
             type='video/webm;codecs="vp8, vorbis"' />
-    <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4"
+    <source src="{{ "/videos/devstories.mp4" | prepend: site.baseurl }}"
             type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
   </video>
 </p>
