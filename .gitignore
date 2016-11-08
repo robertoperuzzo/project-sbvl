@@ -1,2 +1,5 @@
 # Ignore build directory
 _site
+
+# Ignore cache
+.sass-cache
