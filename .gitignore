@@ -3,3 +3,6 @@ _site
 
 # Ignore cache
 .sass-cache
+
+# Ignore grunt dependecies
+node_modules
