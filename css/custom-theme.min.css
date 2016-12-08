@@ -5,9 +5,11 @@
  */
 
 body {
+  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  background-color: #F8EA57;
+  background-color: #f5ec48;
   color: #000000;
+  font-size: 16px;
 }
 hr {
   border-color: #000000;
@@ -30,4 +32,67 @@ hr {
 footer {
   font-size: 12px;
   padding: 20px 0 20px 0;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url('../fonts/bebas-neue/BebasNeue-webfont.woff') format('woff'), url('../fonts/bebas-neue/BebasNeue-webfont.ttf') format('ttf'), url('../fonts/bebas-neue/BebasNeue-webfont.svg') format('svg'), url('../fonts/bebas-neue/BebasNeue-webfont.eot') format('eot');
+}
+.brand {
+  padding: 20px;
+}
+.brand img {
+  width: 70px;
+  height: 100px;
+}
+.navbar {
+  border-radius: 0;
+  min-height: 40px;
+}
+.navbar-custom {
+  background-color: #000000;
+  border-color: #000000;
+}
+.navbar-custom .navbar-nav {
+  font-size: 22px;
+  width: 100%;
+  text-align: center;
+}
+.navbar-custom .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #f5ec48;
+  padding: 10px 50px;
+}
+.navbar-custom .navbar-nav > li > a:hover {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.services-list img.media-object {
+  width: 72px;
+  height: 72px;
+}
+.media-heading {
+  border-bottom: 2px solid #000000;
+}
+/* hide title */
+.intro-header {
+  height: 0;
+}
+.site-heading h1 {
+  color: #f5ec48;
+}
+.thumbnail {
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 0;
+}
+.thumbnail .caption {
+  padding: 9px 0;
+}
+.thumbnail .caption p {
+  margin-bottom: 0;
 }
