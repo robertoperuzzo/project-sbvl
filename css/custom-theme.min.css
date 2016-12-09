@@ -41,8 +41,7 @@ footer {
   padding: 20px;
 }
 .brand img {
-  width: 70px;
-  height: 100px;
+  max-height: 100px;
 }
 .navbar {
   border-radius: 0;
