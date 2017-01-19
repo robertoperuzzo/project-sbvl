@@ -2,15 +2,15 @@
 @import "mixins.less";
 
 body {
-  font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   background-color: @yellow;
-  color: #000000;
+  color: @dark;
   font-size: @font-m;
 }
 
 hr {
-  border-color: #000000;
+  border-color: @dark;
 }
 
 .gi-2x{font-size: 2em;}
@@ -27,13 +27,6 @@ footer {
   padding: 20px 0 20px 0;
 }
 
-@font-face {
-    font-family: "Bebas Neue";
-    src:  url('../fonts/bebas-neue/BebasNeue-webfont.woff') format('woff'),
-          url('../fonts/bebas-neue/BebasNeue-webfont.ttf') format('ttf'),
-          url('../fonts/bebas-neue/BebasNeue-webfont.svg') format('svg'),
-          url('../fonts/bebas-neue/BebasNeue-webfont.eot') format('eot');
-}
 .brand {
   padding: 20px;
 
@@ -46,8 +39,8 @@ footer {
     min-height: 40px;
 }
 .navbar-custom {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: @dark;
+    border-color: @dark;
 
     .navbar-nav {
       font-size: @font-xl;
@@ -80,7 +73,7 @@ footer {
 }
 
 .media-heading {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid @dark;
 }
 /* hide title */
 .intro-header {
@@ -104,4 +97,10 @@ footer {
       margin-bottom: 0;
     }
   }
+}
+
+/* @import "video.less"; */
+video {
+  width: 100%;
+  border: 1px solid @dark;
 }
