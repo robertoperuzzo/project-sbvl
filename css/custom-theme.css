@@ -31,7 +31,7 @@ hr {
   padding: 20px 0 20px 0;
 }
 footer {
-  font-size: 12px;
+  font-size: 14px;
   padding: 20px 0 20px 0;
 }
 .starter-template {
@@ -113,4 +113,10 @@ footer {
 video {
   width: 100%;
   border: 1px solid #000000;
+}
+.team-item {
+  font-size: 14px;
+}
+.team-item .caption {
+  font-size: 12px;
 }
