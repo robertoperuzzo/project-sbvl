@@ -8,6 +8,13 @@ body {
 hr {
   border-color: #000000;
 }
+.container a {
+  color: #000000;
+  font-weight: bold;
+}
+.container a:hover {
+  color: #000000;
+}
 .gi-2x {
   font-size: 2em;
 }
@@ -27,11 +34,16 @@ footer {
   font-size: 12px;
   padding: 20px 0 20px 0;
 }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
 .brand {
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .brand img {
-  max-height: 100px;
+  max-height: 131px;
 }
 .navbar {
   border-radius: 0;
@@ -46,9 +58,16 @@ footer {
   width: 100%;
   text-align: center;
 }
-.navbar-custom .navbar-nav > li {
-  float: none;
-  display: inline-block;
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav > li {
+    float: none;
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav > li {
+    margin: 0;
+  }
 }
 .navbar-custom .navbar-nav > li > a {
   color: #f5ec48;
@@ -56,6 +75,11 @@ footer {
 }
 .navbar-custom .navbar-nav > li > a:hover {
   color: #ffffff;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover {
+  color: white;
+  background-color: transparent;
 }
 .navbar-custom .navbar-brand {
   color: #ffffff;

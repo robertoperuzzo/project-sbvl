@@ -13,6 +13,16 @@ hr {
   border-color: @dark;
 }
 
+.container {
+  a {
+    color: @dark;
+    font-weight: bold;
+  }
+  a:hover {
+    color: @dark;
+  }
+}
+
 .gi-2x{font-size: 2em;}
 .gi-3x{font-size: 3em;}
 .gi-4x{font-size: 4em;}
@@ -27,11 +37,17 @@ footer {
   padding: 20px 0 20px 0;
 }
 
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
 .brand {
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   img {
-    max-height: 100px;
+    max-height: 131px;
   }
 }
 .navbar {
@@ -48,14 +64,28 @@ footer {
       text-align: center;
 
       >li {
-        float: none;
-        display: inline-block;
+
+        @media (min-width: 768px) {
+          float: none;
+          display: inline-block;
+        }
+        @media (max-width: 767px) {
+          margin: 0;
+        }
+
         >a {
           color: @yellow;
           padding: 10px 50px;
         }
         >a:hover {
           color: #ffffff;
+        }
+      }
+
+      >.active {
+        >a, >a:hover {
+          color: white;
+          background-color: transparent;
         }
       }
     }

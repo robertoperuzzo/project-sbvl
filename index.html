@@ -3,19 +3,23 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+permalink: /
 ---
-<hr>
-<h2 class="text-center">Dal 2006 viaggiamo insieme a voi</h2>
-<hr>
-<p class="text-center">
-  Guarda lo showreel<br>e scorpi i nostri servizi.<br>
-  <span class="glyphicon glyphicon-triangle-bottom gi-3x" aria-hidden="true"></span>
-</p>
-<div class="text-center col-sx-12">
-  <video id="showreel" controls poster="{{ "/images/poster.png" | prepend: site.baseurl }}"  onclick="this.paused ? this.play() : this.pause();">
-    <source src="{{ "/videos/SBVL_showreel.webm" | prepend: site.baseurl }}"
-            type='video/webm;codecs="vp8, vorbis"' />
-    <source src="{{ "/videos/SBVL_showreel.mp4" | prepend: site.baseurl }}"
-            type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-  </video>
-</div>
+
+<section class="starter-template">
+  <hr>
+  <h2>Dal 2006 viaggiamo insieme a voi</h2>
+  <hr>
+  <p>
+    Guarda lo showreel<br>e scorpi i nostri servizi<br>
+    <span class="glyphicon glyphicon-triangle-bottom gi-3x" aria-hidden="true"></span>
+  </p>
+  <div class="text-center col-sx-12">
+    <video id="showreel" poster="{{ "/images/poster.png" | prepend: site.baseurl }}"  onclick="this.paused ? this.play() : this.pause();">
+      <source src="{{ "/videos/SBVL_showreel.webm" | prepend: site.baseurl }}"
+              type='video/webm;codecs="vp8, vorbis"' />
+      <source src="{{ "/videos/SBVL_showreel.mp4" | prepend: site.baseurl }}"
+              type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+    </video>
+  </div>
+</section>
