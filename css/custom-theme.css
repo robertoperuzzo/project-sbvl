@@ -109,10 +109,12 @@ footer {
 .thumbnail .caption p {
   margin-bottom: 0;
 }
-/* @import "video.less"; */
 video {
   width: 100%;
   border: 1px solid #000000;
+}
+#showreel {
+  cursor: pointer;
 }
 .team-item {
   font-size: 14px;
