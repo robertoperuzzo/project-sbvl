@@ -18,9 +18,12 @@ seo_title: SBVL
 copyright_name: SBVL
 email: info@sbvl.it
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  StreetBox VideoLab è una video produzione che nasce a Bassano del Grappa
+  nel 2006, seguendo attività legate al mondo dell'action sport e della street art.
+  SBVL oggi lavora con aziende di settori differenti, in Italia e all'estero,
+  creando video di presentazione aziendale, video prodotto, tutorial e
+  report eventi. Comunichiamo il tuo messaggio attraverso le immagini,
+  accostandole a parole, grafica e musica.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.sbvl.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
