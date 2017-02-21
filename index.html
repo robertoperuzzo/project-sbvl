@@ -15,7 +15,7 @@ permalink: /
     <span class="glyphicon glyphicon-triangle-bottom gi-3x" aria-hidden="true"></span>
   </p>
   <div class="text-center col-sx-12">
-    <video id="showreel" poster="{{ "/images/poster.png" | prepend: site.baseurl }}"  onclick="this.paused ? this.play() : this.pause();">
+    <video id="showreel" poster="{{ "/images/poster.png" | prepend: site.baseurl }}"  onclick="this.paused ? this.play() : this.pause();" controls>
       <source src="{{ "/videos/SBVL_showreel.webm" | prepend: site.baseurl }}"
               type='video/webm;codecs="vp8, vorbis"' />
       <source src="{{ "/videos/SBVL_showreel.mp4" | prepend: site.baseurl }}"

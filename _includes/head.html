@@ -7,6 +7,24 @@
 
     <title>{% if page.title %}{{ page.title }} | {{ site.seo_title }}{% else %}{{ site.seo_title }}{% endif %}</title>
 
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <meta content="{{ site.title }}" property="og:site_name">
     {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
@@ -24,9 +42,9 @@
     <meta content="{{ site.description }}" property="og:description">
     {% endif %}
     {% if page.url %}
-      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      <meta content="http://www.sbvl.it{{ page.url }}" property="og:url">
     {% endif %}
-    <meta content="{{ site.url }}images/sbvlavatar.png" property="og:image">
+    <meta content="http://www.sbvl.it/images/sbvlavatar.png" property="og:image">
 
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
